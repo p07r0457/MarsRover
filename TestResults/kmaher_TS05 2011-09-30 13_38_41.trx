@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="65c2087e-5c1b-443e-81e5-c9e5407ffb1f" name="kmaher@TS05 2011-09-30 13:38:41" runUser="APPLEGATE\kmaher" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7e752d64-0f92-4abb-bfad-8a3987ce4aea">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kmaher_TS05 2011-09-30 13_38_41">
+      <DeploymentItem filename="C:\Users\kmaher\Desktop\MarsRover\MarsRover\bin\Debug\MarsRover.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-30T13:38:41.1035206-07:00" queuing="2011-09-30T13:38:41.1375206-07:00" start="2011-09-30T13:38:41.1415206-07:00" finish="2011-09-30T13:38:41.3045206-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LocationAvailableTest" storage="c:\users\kmaher\desktop\marsrover\marsrovertest\bin\debug\marsrovertest.dll" id="953fe0a5-b332-80a7-3f99-0a17ecc2e51c">
+      <Execution id="d1776977-95e5-48b5-9bda-f3e6faaf32a8" />
+      <TestMethod codeBase="C:/Users/kmaher/Desktop/MarsRover/MarsRoverTest/bin/Debug/MarsRoverTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsRoverTest.SurfaceTest, MarsRoverTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LocationAvailableTest" />
+    </UnitTest>
+    <UnitTest name="RoverConstructorTest" storage="c:\users\kmaher\desktop\marsrover\marsrovertest\bin\debug\marsrovertest.dll" id="705af041-eaba-9be1-3878-f4899680fc25">
+      <Execution id="46e2e38c-efae-418c-88c0-9ab351b8e1b4" />
+      <TestMethod codeBase="C:/Users/kmaher/Desktop/MarsRover/MarsRoverTest/bin/Debug/MarsRoverTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsRoverTest.RoverTest, MarsRoverTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RoverConstructorTest" />
+    </UnitTest>
+    <UnitTest name="DimensionsTest" storage="c:\users\kmaher\desktop\marsrover\marsrovertest\bin\debug\marsrovertest.dll" id="545f6e97-8895-69ca-d1b6-150b85e63af0">
+      <Execution id="459196d1-111a-48aa-9c5f-7369af31b197" />
+      <TestMethod codeBase="C:/Users/kmaher/Desktop/MarsRover/MarsRoverTest/bin/Debug/MarsRoverTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsRoverTest.SurfaceTest, MarsRoverTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DimensionsTest" />
+    </UnitTest>
+    <UnitTest name="MoveTest" storage="c:\users\kmaher\desktop\marsrover\marsrovertest\bin\debug\marsrovertest.dll" id="c6a9ff28-a42c-d176-3de5-cb114fa8f401">
+      <Execution id="d0a62853-0911-46c7-9ce2-471b631f95e6" />
+      <TestMethod codeBase="C:/Users/kmaher/Desktop/MarsRover/MarsRoverTest/bin/Debug/MarsRoverTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsRoverTest.RoverTest, MarsRoverTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MoveTest" />
+    </UnitTest>
+    <UnitTest name="RotateTest" storage="c:\users\kmaher\desktop\marsrover\marsrovertest\bin\debug\marsrovertest.dll" id="52eadbff-ae4d-0fd9-f6d2-1ce5ce1a1dc7">
+      <Execution id="aa978722-7f44-46b7-98f7-784b9d275cad" />
+      <TestMethod codeBase="C:/Users/kmaher/Desktop/MarsRover/MarsRoverTest/bin/Debug/MarsRoverTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsRoverTest.RoverTest, MarsRoverTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RotateTest" />
+    </UnitTest>
+    <UnitTest name="CrashLandedTest" storage="c:\users\kmaher\desktop\marsrover\marsrovertest\bin\debug\marsrovertest.dll" id="f4b743fb-4318-db30-5439-7ef5bc5bd27f">
+      <Execution id="c995328a-767c-47e2-861d-851dd81b7d9c" />
+      <TestMethod codeBase="C:/Users/kmaher/Desktop/MarsRover/MarsRoverTest/bin/Debug/MarsRoverTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsRoverTest.RoverTest, MarsRoverTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CrashLandedTest" />
+    </UnitTest>
+    <UnitTest name="PlexisChallenge" storage="c:\users\kmaher\desktop\marsrover\marsrovertest\bin\debug\marsrovertest.dll" id="d7803b95-b585-e690-d2d0-274bd23b9d87">
+      <Execution id="37570589-618d-4444-a866-074e5ed96259" />
+      <TestMethod codeBase="C:/Users/kmaher/Desktop/MarsRover/MarsRoverTest/bin/Debug/MarsRoverTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsRoverTest.RoverTest, MarsRoverTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlexisChallenge" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="705af041-eaba-9be1-3878-f4899680fc25" executionId="46e2e38c-efae-418c-88c0-9ab351b8e1b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6a9ff28-a42c-d176-3de5-cb114fa8f401" executionId="d0a62853-0911-46c7-9ce2-471b631f95e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52eadbff-ae4d-0fd9-f6d2-1ce5ce1a1dc7" executionId="aa978722-7f44-46b7-98f7-784b9d275cad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4b743fb-4318-db30-5439-7ef5bc5bd27f" executionId="c995328a-767c-47e2-861d-851dd81b7d9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7803b95-b585-e690-d2d0-274bd23b9d87" executionId="37570589-618d-4444-a866-074e5ed96259" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="953fe0a5-b332-80a7-3f99-0a17ecc2e51c" executionId="d1776977-95e5-48b5-9bda-f3e6faaf32a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="545f6e97-8895-69ca-d1b6-150b85e63af0" executionId="459196d1-111a-48aa-9c5f-7369af31b197" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="46e2e38c-efae-418c-88c0-9ab351b8e1b4" testId="705af041-eaba-9be1-3878-f4899680fc25" testName="RoverConstructorTest" computerName="TS05" duration="00:00:00.0112746" startTime="2011-09-30T13:38:41.1445206-07:00" endTime="2011-09-30T13:38:41.2735206-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46e2e38c-efae-418c-88c0-9ab351b8e1b4">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0a62853-0911-46c7-9ce2-471b631f95e6" testId="c6a9ff28-a42c-d176-3de5-cb114fa8f401" testName="MoveTest" computerName="TS05" duration="00:00:00.0007018" startTime="2011-09-30T13:38:41.2755206-07:00" endTime="2011-09-30T13:38:41.2785206-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0a62853-0911-46c7-9ce2-471b631f95e6">
+    </UnitTestResult>
+    <UnitTestResult executionId="aa978722-7f44-46b7-98f7-784b9d275cad" testId="52eadbff-ae4d-0fd9-f6d2-1ce5ce1a1dc7" testName="RotateTest" computerName="TS05" duration="00:00:00.0007588" startTime="2011-09-30T13:38:41.2805206-07:00" endTime="2011-09-30T13:38:41.2825206-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa978722-7f44-46b7-98f7-784b9d275cad">
+    </UnitTestResult>
+    <UnitTestResult executionId="c995328a-767c-47e2-861d-851dd81b7d9c" testId="f4b743fb-4318-db30-5439-7ef5bc5bd27f" testName="CrashLandedTest" computerName="TS05" duration="00:00:00.0001977" startTime="2011-09-30T13:38:41.2835206-07:00" endTime="2011-09-30T13:38:41.2855206-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c995328a-767c-47e2-861d-851dd81b7d9c">
+    </UnitTestResult>
+    <UnitTestResult executionId="37570589-618d-4444-a866-074e5ed96259" testId="d7803b95-b585-e690-d2d0-274bd23b9d87" testName="PlexisChallenge" computerName="TS05" duration="00:00:00.0008823" startTime="2011-09-30T13:38:41.2865206-07:00" endTime="2011-09-30T13:38:41.2895206-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37570589-618d-4444-a866-074e5ed96259">
+    </UnitTestResult>
+    <UnitTestResult executionId="d1776977-95e5-48b5-9bda-f3e6faaf32a8" testId="953fe0a5-b332-80a7-3f99-0a17ecc2e51c" testName="LocationAvailableTest" computerName="TS05" duration="00:00:00.0003857" startTime="2011-09-30T13:38:41.2905206-07:00" endTime="2011-09-30T13:38:41.2925206-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1776977-95e5-48b5-9bda-f3e6faaf32a8">
+    </UnitTestResult>
+    <UnitTestResult executionId="459196d1-111a-48aa-9c5f-7369af31b197" testId="545f6e97-8895-69ca-d1b6-150b85e63af0" testName="DimensionsTest" computerName="TS05" duration="00:00:00.0001651" startTime="2011-09-30T13:38:41.2945206-07:00" endTime="2011-09-30T13:38:41.2955206-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="459196d1-111a-48aa-9c5f-7369af31b197">
+    </UnitTestResult>
+  </Results>
+</TestRun>
